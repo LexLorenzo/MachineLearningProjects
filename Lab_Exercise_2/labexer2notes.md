@@ -17,6 +17,7 @@
 - Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
 - Remove outliers from income? Not sure
 - Bigyan ng definition yung type of education (Especially 2n cycle and basic)
+- May mga age na parang inapproriate (Ex: 131)
 
 ## Bonus:
 
