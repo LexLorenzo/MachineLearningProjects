@@ -9,6 +9,9 @@
 - Does being a single parent correlate to their chances of availing the promo?
 - Is the recency of their last purchase significant to their response?
 - Are those who purchases with deals significant to their response? (Karamihan sa mga more than 6 nagyes)
+- Are there any relevant information about parent income with the amount of kids they have?
+- The relevance of Marital status, education, and income
+- The relevance of Recency and number of people in the family (How much they consume the products)
 
 ## Possible data cleaning:
 
@@ -18,6 +21,7 @@
 - Remove outliers from income? Not sure
 - Bigyan ng definition yung type of education (Especially 2n cycle and basic)
 - May mga age na parang inapproriate (Ex: 131)
+- Nauna ang DT Customer kesa sa year birth
 
 ## Bonus:
 
@@ -25,3 +29,7 @@
 - Comparison of models used
 
 Goodnight sa mga viewers ko dyan! ;)
+
+## Approach:
+
+- Linear Regression to predict sales
