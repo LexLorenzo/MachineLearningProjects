@@ -13,7 +13,7 @@
 - The relevance of Marital status, education, and income
 - The relevance of Recency and number of people in the family (How much they consume the products)
 
-## Possible data cleaning:
+## Data Pre Processing:
 
 - Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data.)
 - Convert the bdate into age (Remove invalid ages)
@@ -22,6 +22,7 @@
 - Bigyan ng definition yung type of education (Especially 2n cycle and basic)
 - May mga age na parang inapproriate (Ex: 131)
 - Nauna ang DT Customer kesa sa year birth
+- New column for the total number of children
 
 ## Bonus:
 
@@ -45,6 +46,7 @@
 ## Approach:
 
 - Linear Regression to predict sales
+- Bayes rule to combine different probabilities
 
 ## TODO
 
