@@ -23,6 +23,7 @@
 - The Loyalty of a customer = (Number of visits + Frequency of purchases) / (Number of days since enrollment)
 
   - The higher the loyalty the better chance of saying yes
+- Number of Purchases and the amount of purchases based on customers loyalty
 
 ## Data Pre Processing:
 
