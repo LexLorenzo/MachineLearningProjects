@@ -1,5 +1,7 @@
 ## Possible business questions to solve:
 
+**This can also be used as a feature for the model**
+
 - How should the deals be posted? (Website ba magfocus or dun sa mga catalogs. Note that medyo marami sa mga nagpurchase using catalog yung nagyes. Note also that marami dun sa mga nagvisit sa site yung nagyes)
 - What type of products had the most spent? (Note that the amount spent might correlate to the prices of the products. Ex: wines are expensive compared to others.)
 - What type of products are in the boom in the latest? (Note that the wines might have been the boom because consistent yung mga nagyes. )
@@ -18,8 +20,8 @@
 - The Relevance of the Total number of products purchaced based on the number of purchases
 - The number of web purchases on the web visits
 - The Loyalty of a customer = (Number of visits + Frequency of purchases) / (Number of dates since enrollment)
+
   - The higher the loyalty the better chance of saying yes
-- 
 
 ## Data Pre Processing:
 
