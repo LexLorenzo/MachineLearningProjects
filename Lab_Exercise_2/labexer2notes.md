@@ -24,4 +24,15 @@
 - Insights that may come for the business
 - Comparison of models used
 
+## Notes on models:
+
+1. Decision Tree Model:
+    Link: https://www.youtube.com/watch?v=RmajweUFKvM
+    * madali sya magoverfit kaya kailangan mag generalization
+    * kailangan maalis lahat ng outliers dahil malaki din effect nito sa capability ng model
+    * wag masyado gawin complicated yung mga questions kasi mahihirapan na makaaccomodate ng new data afterwards pag masyadong complicated
+    * #### Provide an entropy score on the dataset para majustify natin kung suitable ba yung model sa specific dataset natin
+    * Important yung splitting para makakuha ng maayos na entropy
+    
+
 Goodnight sa mga viewers ko dyan! ;)
