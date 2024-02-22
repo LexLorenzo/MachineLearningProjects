@@ -15,11 +15,11 @@
 - The relevance of Marital status, education, and income
 - The relevance of Recency and number of people in the family (How much they consume the products)
 - Significance on Recency on the number of days
-- The Relevance of the Total number of purchases and Recency.
-- The Relevance of the Total number of purchases and Website visits.
+- The Relevance of the Total number/Amount of purchases and Recency.
+- The Relevance of the Total number/Amount of purchases and Website visits.
 - The Relevance of the Total number of products purchaced based on the number of purchases
 - The number of web purchases on the web visits
-- The Loyalty of a customer = (Number of visits + Frequency of purchases) / (Number of dates since enrollment)
+- The Loyalty of a customer = (Number of visits + Frequency of purchases) / (Number of days since enrollment)
 
   - The higher the loyalty the better chance of saying yes
 
