@@ -15,7 +15,7 @@
 
 ## Possible data cleaning:
 
-- Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide)
+- Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data.)
 - Convert the bdate into age (Remove invalid ages)
 - Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
 - Remove outliers from income? Not sure
@@ -31,16 +31,24 @@
 ## Notes on models:
 
 1. Decision Tree Model:
-    Link: https://www.youtube.com/watch?v=RmajweUFKvM
-    * madali sya magoverfit kaya kailangan mag generalization
-    * kailangan maalis lahat ng outliers dahil malaki din effect nito sa capability ng model
-    * wag masyado gawin complicated yung mga questions kasi mahihirapan na makaaccomodate ng new data afterwards pag masyadong complicated
-    * #### Provide an entropy score on the dataset para majustify natin kung suitable ba yung model sa specific dataset natin
-    * Important yung splitting para makakuha ng maayos na entropy
-    
-
-Goodnight sa mga viewers ko dyan! ;)
+   Link: https://www.youtube.com/watch?v=RmajweUFKvM
+   - madali sya magoverfit kaya kailangan mag generalization
+   - kailangan maalis lahat ng outliers dahil malaki din effect nito sa capability ng model
+   - wag masyado gawin complicated yung mga questions kasi mahihirapan na makaaccomodate ng new data afterwards pag masyadong complicated
+   - #### Provide an entropy score on the dataset para majustify natin kung suitable ba yung model sa specific dataset natin
+   - Important yung splitting para makakuha ng maayos na entropy
+2. Logistic Regression:
+   - Kailangan maresearch ng maigi kung anong threshold gagamitin para madetermine yung probability na yes or no
+   - This performs best when linearly seperable yung data. (Kung ito yung pinakamataas yung score pwede natin to mamention)
+   -
 
 ## Approach:
 
 - Linear Regression to predict sales
+
+## TODO
+
+1. Create a structure na seperate yung data profiling, cleaning/preprocessing, and each models that will be used
+2. Research on possible methods to use in quantifying the string columns
+
+Goodnight sa mga viewers ko dyan! ;)
