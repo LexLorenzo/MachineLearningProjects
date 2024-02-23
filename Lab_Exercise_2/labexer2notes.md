@@ -15,14 +15,16 @@
 
 ## Data Pre Processing:
 
-- Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
-- Convert the bdate into age (Remove invalid ages)
-- Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
-- Remove outliers from income? Not sure
-- Bigyan ng definition yung type of education (Especially 2n cycle and basic)
-- May mga age na parang inapproriate (Ex: 131)
-- Nauna ang DT Customer kesa sa year birth
-- New column for the total number of children
+[] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
+[x] Convert the bdate into age (Remove invalid ages)
+[x] Fixed the format for Dt_Customer
+[x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the youngest allowed valid members)
+[] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
+[] Remove outliers from income? Not sure
+[] Bigyan ng definition yung type of education (Especially 2n cycle and basic)
+[] May mga age na parang inapproriate (Ex: 131)
+[] Nauna ang DT Customer kesa sa year birth
+[] New column for the total number of children
 
 ## Experiment on
 
