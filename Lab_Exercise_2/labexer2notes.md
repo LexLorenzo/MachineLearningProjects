@@ -38,14 +38,21 @@
 - [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
 - [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
 - [] Remove outliers from income? Not sure
-- [] Bigyan ng definition yung type of education (Especially 2n cycle and basic)
-- [] May mga age na parang inapproriate (Ex: 131)
+- [x] Remove age outliers
 - [x] Nauna ang DT Customer kesa sa year birth
-- [] New column for the total number of children
+- [x] New column for the total family size
+
+## Discuss the following in write up
+
+- Assumptions in the data
+- Definicitons of the contents of marital status and education
 
 ## Experiment on
 
 - Effects of outliers in the models
+- Difference of converting absurd, alone, and YOLO into single and just dropping them
+- Difference of removing the nulls in income or replacing the null values with mean per education.
+- Difference of removing outliers and not removing
 
 ## Bonus:
 
