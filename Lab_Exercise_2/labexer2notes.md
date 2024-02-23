@@ -27,7 +27,6 @@
 
 ## Data Pre Processing:
 
-
 - Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide)
 - Convert the bdate into age (Remove invalid ages)
   - All data was obtained from last year
@@ -53,7 +52,6 @@
 ## Experiment on
 
 - Effects of outliers in the models
-
 
 ## Bonus:
 
@@ -86,3 +84,22 @@
 2. Research on possible methods to use in quantifying the string columns
 
 Goodnight sa mga viewers ko dyan! ;)
+
+
+
+# Nigel's Results
+
+#### K-nearest
+
+- Cleaned_data.xlsx
+  - Accuracy: 0.8420
+    Precision: 0.4340
+    Recall: 0.2323
+    F1: 0.3026
+    AUC: 0.5899
+- Threshold_Data.xlsx
+  - Accuracy: 0.8284
+    Precision: 0.3519
+    Recall: 0.1919
+    F1: 0.2484
+    AUC: 0.5653
