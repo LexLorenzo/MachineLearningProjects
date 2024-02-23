@@ -53,6 +53,7 @@
 - Difference of converting absurd, alone, and YOLO into single and just dropping them
 - Difference of removing the nulls in income or replacing the null values with mean per education.
 - Difference of removing outliers and not removing
+- Difference of difference scaler
 
 ## Bonus:
 
