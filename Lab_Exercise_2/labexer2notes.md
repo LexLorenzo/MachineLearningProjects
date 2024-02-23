@@ -36,7 +36,7 @@
   - [x] Check if the age is in the appropriate age to get any form of promo
 - [x] Fixed the format for Dt_Customer
 - [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
-- [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
+- [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
 - [] Remove outliers from income? Not sure
 - [] Bigyan ng definition yung type of education (Especially 2n cycle and basic)
 - [] May mga age na parang inapproriate (Ex: 131)
