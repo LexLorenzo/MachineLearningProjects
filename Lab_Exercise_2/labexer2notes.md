@@ -27,6 +27,7 @@
 
 ## Data Pre Processing:
 
+
 - Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide)
 - Convert the bdate into age (Remove invalid ages)
   - All data was obtained from last year
@@ -38,6 +39,21 @@
 - Nauna ang DT Customer kesa sa year birth
 - New column for the total number of children
 - The relevance of Recency and the number of complains
+  [] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
+  [x] Convert the bdate into age (Remove invalid ages)
+  [x] Fixed the format for Dt_Customer
+  [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the youngest allowed valid members)
+  [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
+  [] Remove outliers from income? Not sure
+  [] Bigyan ng definition yung type of education (Especially 2n cycle and basic)
+  [] May mga age na parang inapproriate (Ex: 131)
+  [] Nauna ang DT Customer kesa sa year birth
+  [] New column for the total number of children
+
+## Experiment on
+
+- Effects of outliers in the models
+
 
 ## Bonus:
 
@@ -45,9 +61,28 @@
 - Comparison of models used
 - Possible for profit loss from the complains based on the income and purchases
 
-Goodnight sa mga viewers ko dyan! ;)
+## Notes on models:
+
+1. Decision Tree Model:
+   Link: https://www.youtube.com/watch?v=RmajweUFKvM
+   - madali sya magoverfit kaya kailangan mag generalization
+   - kailangan maalis lahat ng outliers dahil malaki din effect nito sa capability ng model
+   - wag masyado gawin complicated yung mga questions kasi mahihirapan na makaaccomodate ng new data afterwards pag masyadong complicated
+   - #### Provide an entropy score on the dataset para majustify natin kung suitable ba yung model sa specific dataset natin
+   - Important yung splitting para makakuha ng maayos na entropy
+2. Logistic Regression:
+   - Kailangan maresearch ng maigi kung anong threshold gagamitin para madetermine yung probability na yes or no
+   - This performs best when linearly seperable yung data. (Kung ito yung pinakamataas yung score pwede natin to mamention)
+   - 
 
 ## Approach:
 
 - Linear Regression to predict sales
 - Bayes rule to combine different probabilities
+
+## TODO
+
+1. Create a structure na seperate yung data profiling, cleaning/preprocessing, and each models that will be used
+2. Research on possible methods to use in quantifying the string columns
+
+Goodnight sa mga viewers ko dyan! ;)
