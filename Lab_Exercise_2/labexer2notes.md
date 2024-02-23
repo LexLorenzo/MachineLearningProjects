@@ -85,3 +85,20 @@
 2. Research on possible methods to use in quantifying the string columns
 
 Goodnight sa mga viewers ko dyan! ;)
+
+# Nigel's Results
+
+#### K-nearest
+
+- Cleaned_data.xlsx
+  - Accuracy: 0.8420
+    Precision: 0.4340
+    Recall: 0.2323
+    F1: 0.3026
+    AUC: 0.5899
+- Threshold_Data.xlsx
+  - Accuracy: 0.8284
+    Precision: 0.3519
+    Recall: 0.1919
+    F1: 0.2484
+    AUC: 0.5653
