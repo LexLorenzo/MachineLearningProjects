@@ -101,7 +101,15 @@
     F1: 0.2484
     AUC: 0.5653
 
-  # Possible metrics to help
-  - https://loyaltylion.com/blog/how-to-measure-brand-loyalty
-  
+# Possible metrics to help
+- https://loyaltylion.com/blog/how-to-measure-brand-loyalty
+
+# Models
+- Linear Classification 
+- Logistic Regression 
+- Naive Bayes 
+- Decision trees 
+- K-Nearest Neighbors 
+
+- SVM - Di ko pa ito gets
 Goodnight sa mga viewers ko dyan! ;)
