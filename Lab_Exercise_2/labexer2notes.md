@@ -36,8 +36,8 @@
   - [x] Check if the age is in the appropriate age to get any form of promo
 - [x] Fixed the format for Dt_Customer
 - [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
-- [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
-- [] Remove outliers from income? Not sure
+- [x] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
+- [x] Remove outliers from income? Not sure
 - [x] Remove age outliers
 - [x] Nauna ang DT Customer kesa sa year birth
 - [x] New column for the total family size
@@ -45,7 +45,7 @@
 ## Discuss the following in write up
 
 - Assumptions in the data
-- Definicitons of the contents of marital status and education
+- Definitons of the contents of marital status and education
 
 ## Experiment on
 
