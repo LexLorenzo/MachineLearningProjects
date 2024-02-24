@@ -82,10 +82,7 @@
 
 1. Create a structure na seperate yung data profiling, cleaning/preprocessing, and each models that will be used
 2. Research on possible methods to use in quantifying the string columns
-
-Goodnight sa mga viewers ko dyan! ;)
-
-
+3. 
 
 # Nigel's Results
 
@@ -103,3 +100,8 @@ Goodnight sa mga viewers ko dyan! ;)
     Recall: 0.1919
     F1: 0.2484
     AUC: 0.5653
+
+  # Possible metrics to help
+  - https://loyaltylion.com/blog/how-to-measure-brand-loyalty
+  
+Goodnight sa mga viewers ko dyan! ;)
