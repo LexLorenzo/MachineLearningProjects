@@ -24,34 +24,36 @@
 
   - The higher the loyalty the better chance of saying yes
 - Number of Purchases and the amount of purchases based on customers loyalty
+- The relevance of Recency and the number of complains
 
 ## Data Pre Processing:
 
-- Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide)
-- Convert the bdate into age (Remove invalid ages)
-  - All data was obtained from last year
-  - Check if the age is in the appropriate age to get any form of promo
-- Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
-- Remove outliers from income? Not sure
-- Bigyan ng definition yung type of education (Especially 2n cycle and basic)
-- May mga age na parang inapproriate (Ex: 131)
-- Nauna ang DT Customer kesa sa year birth
-- New column for the total number of children
-- The relevance of Recency and the number of complains
-  [] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
-  [x] Convert the bdate into age (Remove invalid ages)
-  [x] Fixed the format for Dt_Customer
-  [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the youngest allowed valid members)
-  [] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang)
-  [] Remove outliers from income? Not sure
-  [] Bigyan ng definition yung type of education (Especially 2n cycle and basic)
-  [] May mga age na parang inapproriate (Ex: 131)
-  [] Nauna ang DT Customer kesa sa year birth
-  [] New column for the total number of children
+- [X] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
+- [X] Convert the bdate into age (Remove invalid ages)
+
+  - [] All data was obtained from last year
+
+  - [X] Check if the age is in the appropriate age to get any form of promo
+- [X] Fixed the format for Dt_Customer
+- [X] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
+- [X] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
+- [X] Remove outliers from income? Not sure
+- [X] Remove age outliers
+- [X] Nauna ang DT Customer kesa sa year birth
+- [X] New column for the total family size
+
+## Discuss the following in write up
+
+- Assumptions in the data
+- Definitons of the contents of marital status and education
 
 ## Experiment on
 
 - Effects of outliers in the models
+- Difference of converting absurd, alone, and YOLO into single and just dropping them
+- Difference of removing the nulls in income or replacing the null values with mean per education.
+- Difference of removing outliers and not removing
+- Difference of difference scaler
 
 ## Bonus:
 
@@ -82,7 +84,7 @@
 
 1. Create a structure na seperate yung data profiling, cleaning/preprocessing, and each models that will be used
 2. Research on possible methods to use in quantifying the string columns
-3. 
+
 
 # Nigel's Results
 
@@ -102,14 +104,18 @@
     AUC: 0.5653
 
 # Possible metrics to help
+
 - https://loyaltylion.com/blog/how-to-measure-brand-loyalty
 
 # Models
-- Linear Classification 
-- Logistic Regression 
-- Naive Bayes 
-- Decision trees 
-- K-Nearest Neighbors 
 
+- Linear Classification
+- Logistic Regression
+- Naive Bayes
+- Decision trees
+- K-Nearest Neighbors
 - SVM - Di ko pa ito gets
+  Goodnight sa mga viewers ko dyan! ;)
+
+
 Goodnight sa mga viewers ko dyan! ;)
