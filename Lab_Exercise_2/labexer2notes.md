@@ -19,28 +19,28 @@
 - The Relevance of the Total Amount of web purchases and Website visits.
 
   - Can conclude the interst of the customer based on the web
-
 - The Relevance of the Total number of products purchaced based on the number of purchases
 - The Loyalty of a customer = (Number of visits + Frequency of purchases) / (Number of days since enrollment)
 
   - The higher the loyalty the better chance of saying yes
-
 - Number of Purchases and the amount of purchases based on customers loyalty
 - The relevance of Recency and the number of complains
 
 ## Data Pre Processing:
 
-- [x] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
-- [x] Convert the bdate into age (Remove invalid ages)
+- [X] Nulls in income (We can assume that they did not provide their income. Possible na iset nalang to 0 since konti lang yung mga di nagprovide. Pwede rin natin palitan ng mean of incomes para di masayang yung data. Possible na kuhain yung mean per Education)
+- [X] Convert the bdate into age (Remove invalid ages)
+
   - [] All data was obtained from last year
-  - [x] Check if the age is in the appropriate age to get any form of promo
-- [x] Fixed the format for Dt_Customer
-- [x] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
-- [x] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
-- [x] Remove outliers from income? Not sure
-- [x] Remove age outliers
-- [x] Nauna ang DT Customer kesa sa year birth
-- [x] New column for the total family size
+
+  - [X] Check if the age is in the appropriate age to get any form of promo
+- [X] Fixed the format for Dt_Customer
+- [X] Removed the invalid dates where age is less than 18 to the time of enrolment (I assumed that 18 is the younges- allowed valid members)
+- [X] Vague yung marital status na mga nakalagay (possible na ifocus natin sya dun sa traditional marital status lang. Possible na convert yung absurd, alone, and YOLO into single)
+- [X] Remove outliers from income? Not sure
+- [X] Remove age outliers
+- [X] Nauna ang DT Customer kesa sa year birth
+- [X] New column for the total family size
 
 ## Discuss the following in write up
 
@@ -73,7 +73,7 @@
 2. Logistic Regression:
    - Kailangan maresearch ng maigi kung anong threshold gagamitin para madetermine yung probability na yes or no
    - This performs best when linearly seperable yung data. (Kung ito yung pinakamataas yung score pwede natin to mamention)
-   -
+   - 
 
 ## Approach:
 
@@ -85,7 +85,6 @@
 1. Create a structure na seperate yung data profiling, cleaning/preprocessing, and each models that will be used
 2. Research on possible methods to use in quantifying the string columns
 
-Goodnight sa mga viewers ko dyan! ;)
 
 # Nigel's Results
 
@@ -103,3 +102,20 @@ Goodnight sa mga viewers ko dyan! ;)
     Recall: 0.1919
     F1: 0.2484
     AUC: 0.5653
+
+# Possible metrics to help
+
+- https://loyaltylion.com/blog/how-to-measure-brand-loyalty
+
+# Models
+
+- Linear Classification
+- Logistic Regression
+- Naive Bayes
+- Decision trees
+- K-Nearest Neighbors
+- SVM - Di ko pa ito gets
+  Goodnight sa mga viewers ko dyan! ;)
+
+
+Goodnight sa mga viewers ko dyan! ;)
